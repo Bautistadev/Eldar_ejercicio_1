@@ -5,9 +5,9 @@
 /Users/bautistabasilio/Desktop/Challenge_java/Ejercicio_1/src/main/java/org/eldar/challenge/Entity/Nara.java
 /Users/bautistabasilio/Desktop/Challenge_java/Ejercicio_1/src/main/java/org/eldar/challenge/Entity/Persona.java
 /Users/bautistabasilio/Desktop/Challenge_java/Ejercicio_1/src/main/java/org/eldar/challenge/Entity/Tarjeta.java
-/Users/bautistabasilio/Desktop/Challenge_java/Ejercicio_1/src/main/java/org/eldar/challenge/Entity/Utils/ValidateClass.java
-/Users/bautistabasilio/Desktop/Challenge_java/Ejercicio_1/src/main/java/org/eldar/challenge/Entity/Utils/encryptClass.java
 /Users/bautistabasilio/Desktop/Challenge_java/Ejercicio_1/src/main/java/org/eldar/challenge/Entity/Visa.java
 /Users/bautistabasilio/Desktop/Challenge_java/Ejercicio_1/src/main/java/org/eldar/challenge/Repository/Database.java
 /Users/bautistabasilio/Desktop/Challenge_java/Ejercicio_1/src/main/java/org/eldar/challenge/Repository/PersonaRepository.java
 /Users/bautistabasilio/Desktop/Challenge_java/Ejercicio_1/src/main/java/org/eldar/challenge/Repository/TarjetaRepository.java
+/Users/bautistabasilio/Desktop/Challenge_java/Ejercicio_1/src/main/java/org/eldar/challenge/Utils/ValidateClass.java
+/Users/bautistabasilio/Desktop/Challenge_java/Ejercicio_1/src/main/java/org/eldar/challenge/Utils/encryptClass.java

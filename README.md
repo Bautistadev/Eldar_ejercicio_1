@@ -46,7 +46,7 @@ El sistema ofrece un menú interactivo por consola con las siguientes opciones:
 
 ## Ejecución
 
-1. Asegúrate de tener instalado [Java](https://www.java.com) para ejecutar el sistema.
+1. Asegúrate de tener instalado Java 17 para ejecutar el sistema.
 2. Clona este repositorio:
    ```bash
    git clone https://github.com/Bautistadev/Eldar_ejercicio_1.git
