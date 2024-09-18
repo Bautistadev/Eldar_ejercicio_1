@@ -1,4 +1,4 @@
-package org.eldar.challenge.Entity;
+package org.eldar.challenge.Entity.Abstract;
 
 import org.eldar.challenge.Entity.Interfaces.Tasa;
 
