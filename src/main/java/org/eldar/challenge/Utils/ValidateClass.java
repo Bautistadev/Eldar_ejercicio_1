@@ -1,4 +1,4 @@
-package org.eldar.challenge.Entity.Utils;
+package org.eldar.challenge.Utils;
 
 import org.eldar.challenge.App;
 
@@ -95,6 +95,15 @@ public class ValidateClass {
                 Integer.parseInt(datosFecha[0].trim())); // MES
     }
 
+    public static String formatearNumeroTarjeta(String numero) {
+        // Verifica que el número tenga 16 cifras
+        if (numero == null || numero.length() != 16 || !numero.matches("\\d+")) {
+            throw new IllegalArgumentException("El número de tarjeta debe tener 16 cifras.");
+        }
+
+        // Usa expresiones regulares para insertar los guiones en la posición correcta
+        return numero.replaceAll("(\\d{4})(\\d{4})(\\d{4})(\\d{4})", "$1-$2-$3-$4");
+    }
 
 
 

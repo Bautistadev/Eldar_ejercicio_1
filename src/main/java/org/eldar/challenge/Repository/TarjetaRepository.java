@@ -1,13 +1,11 @@
 package org.eldar.challenge.Repository;
 
-import org.eldar.challenge.Entity.Persona;
 import org.eldar.challenge.Entity.Tarjeta;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
-import static org.eldar.challenge.Entity.Utils.encryptClass.desencriptar;
+import static org.eldar.challenge.Utils.encryptClass.desencriptar;
 
 public class TarjetaRepository {
 

@@ -1,4 +1,4 @@
-package org.eldar.challenge.Entity.Utils;
+package org.eldar.challenge.Utils;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;

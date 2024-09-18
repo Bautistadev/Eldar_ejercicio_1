@@ -12,9 +12,9 @@ import java.io.InputStreamReader;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-import static org.eldar.challenge.Entity.Utils.ValidateClass.*;
-import static org.eldar.challenge.Entity.Utils.encryptClass.desencriptar;
-import static org.eldar.challenge.Entity.Utils.encryptClass.encriptar;
+import static org.eldar.challenge.Utils.ValidateClass.*;
+import static org.eldar.challenge.Utils.encryptClass.desencriptar;
+import static org.eldar.challenge.Utils.encryptClass.encriptar;
 
 public class App 
 {
@@ -299,7 +299,7 @@ public class App
             try {
 
             System.out.println("==========================================");
-            System.out.println("CODIGO DE TARJETA       : ".concat(e.getNumero().toString()));
+            System.out.println("CODIGO DE TARJETA       : ".concat(formatearNumeroTarjeta(e.getNumero().toString())));
             System.out.println("TITULAR                 : ".concat(e.getNombre_completo_titular()));
             System.out.println("MARCA                   : ".concat(e.getMarca().getNombre()));
             System.out.println("CVV                     : ".concat(desencriptar(e.getCVV())));
