@@ -1,6 +1,8 @@
 package org.eldar.challenge.Entity;
 
-public class Marca {
+import org.eldar.challenge.Entity.Interfaces.Tasa;
+
+public abstract class Marca implements Tasa {
 
     private String nombre;
 

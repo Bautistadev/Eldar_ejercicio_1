@@ -1,0 +1,13 @@
+org/eldar/challenge/App.class
+org/eldar/challenge/Repository/PersonaRepository.class
+org/eldar/challenge/Entity/Amex.class
+org/eldar/challenge/Entity/Tarjeta.class
+org/eldar/challenge/Repository/TarjetaRepository.class
+org/eldar/challenge/Entity/Visa.class
+org/eldar/challenge/Entity/Abstract/Marca.class
+org/eldar/challenge/Repository/Database.class
+org/eldar/challenge/Entity/Interfaces/Tasa.class
+org/eldar/challenge/Entity/Utils/encryptClass.class
+org/eldar/challenge/Entity/Nara.class
+org/eldar/challenge/Entity/Utils/ValidateClass.class
+org/eldar/challenge/Entity/Persona.class
