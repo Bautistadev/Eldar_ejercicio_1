@@ -176,10 +176,10 @@ public class App
         Long pam = null;
         try{
         pam =  Long.parseLong(reader.readLine());
-        if (validateMinNumber(pam,16,"ERROR EN EL FORMATO DEL PAM !!!") || validateMaxNumber(pam,16,"ERROR EN EL FORMATO DEL DNI !!!"))
+        if (validateMinNumber(pam,16,"ERROR!!: ERROR EN EL FORMATO DEL PAM !!!") || validateMaxNumber(pam,16,"ERROR!!: ERROR EN EL FORMATO DEL PAM!!! "))
             new App();
         }catch (NumberFormatException e){
-            System.out.println("ERROR EN EL FORMATO DEL PAM !!!");
+            System.out.println("ERROR!!: ERROR EN EL FORMATO DEL PAM !!!");
             new App();
         }
 
