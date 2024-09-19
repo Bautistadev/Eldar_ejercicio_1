@@ -6,7 +6,6 @@ Este sistema permite procesar operaciones con tarjetas de crédito de diferentes
 
 ### Características principales:
 - Validación de tarjetas por fecha de vencimiento.
-- Validación de operaciones por monto (máximo de 10,000 pesos).
 - Cálculo de tasas de servicio según la marca de tarjeta (VISA, NARA, AMEX).
 - El CVV es un dato sensible requerido para procesar operaciones.
 
@@ -28,7 +27,6 @@ El sistema implementa las siguientes funcionalidades:
 
 - Una operación es válida si:
     - La tarjeta utilizada no ha expirado (la fecha de vencimiento debe ser mayor a la fecha actual).
-    - El monto de la operación es menor a 10,000 pesos.
     - Se proporciona el CVV correcto para la tarjeta.
 - Las tasas de servicio se calculan de la siguiente manera:
     - **VISA**: Año dividido por mes (Ejemplo: 20/12).
